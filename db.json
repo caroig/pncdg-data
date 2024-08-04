@@ -1,0 +1,56 @@
+{
+    "villages": [
+        {
+            "id":1,
+            "name":"Rodalquilar",
+            "description":"Charming village, with a handful of bars and restaurants.  Renown for its local gold mine, abandonded in the 1950s",
+            "position" : {
+                "lat": -2.0425003594060005,  
+                "lon": 36.84677871430633
+            }
+        },
+        {
+            "id":2,
+            "name":"Las Negras",
+            "description":"Busy village on the coast, with all services",
+            "position" : {
+                "lat": -2.0425003594060005,  
+                "lon": 36.84677871430633
+            }
+        }
+    ],
+    "beaches": [
+        {
+        "id":1,
+        "name":"El Playazo",
+        "villages" : [1],
+        "description":"Beautiful sandy beach, one of the finest in the natural park",
+        "position" : {
+            "lat": -2.0425003594060005,  
+            "lon": 36.84677871430633
+        },
+        "access": {
+            "category" : "good",
+            "parking" : "Limited. Next to the beach",
+            "road" : "Country road with reasonsonable surface, 2km from the main road",
+            "notes" : "Can be very busy in the high season, and at times chaotic",
+            "price" : "free"
+        },
+        "security" : {
+            "risk" : "low",
+            "flag" : true,
+            "lifeguard" : false,
+            "notes" : ""
+        }
+    },
+    {
+        "id":2,
+        "name":"Las Negras",
+        "description":"Busy village on the coast, with all services",
+        "position" : {
+            "lat": -2.0425003594060005,  
+            "lon": 36.84677871430633
+        }
+    }
+    ]
+}
